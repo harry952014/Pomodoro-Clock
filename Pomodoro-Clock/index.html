@@ -1,0 +1,54 @@
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro" rel="stylesheet">
+</head>
+
+<body>
+
+  <audio id="buzzer" src="http://soundbible.com/mp3/Air%20Horn-SoundBible.com-964603082.mp3" type='audio/mpeg'></audio>
+  
+  <div class="container-fluid text-center">
+    <div>
+      <h1 class='text-center'>Pomodoro Clock</h1>
+    </div>
+    <div class='row' id="length">
+      <div class='col-md-6 text-center' id='breakTimer'>Break length<br>
+        <a id='minusBr'>-</a>
+        <span id='breakLength'>10</span>
+        <a id='plusBr'>+</a>
+      </div>
+      
+      <div class='col-md-6 text-center' id='sessionTimer'>Session length<br>
+        <a id='minusSe'>-</a>
+        <span id='sessionLength'>25</span> 
+        <a id='plusSe'>+</a>
+      </div>
+    
+    </div>
+  
+    
+      
+      <div class='text-center' id='clock'>
+        <a id='timer'>
+          <span id='label'>Session</span><br>
+           <span id='countDown'>25</span>
+          
+       </a>
+      </div>
+   
+  
+  </div>
+
+</body>
+
+<footer>
+ <div class="copy_text text-center" style='color:black'> Designed and Coded by <span><b>Haris Siddqui</b></span> © 2017</div>
+</footer>
