@@ -1,0 +1,61 @@
+body{
+  
+  background: url(https://wallpaperscraft.com/image/solid_colors_stains_light_18571_1920x1080.jpg);
+  background-size: cover;
+  color: #383838;
+  
+}
+
+h1{
+  
+  font-size : 50px;
+  font-family: 'Trade Winds', cursive;
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+#temp {
+  cursor:pointer;
+  font-size: 3.0em;
+  
+}
+
+#weatherType{
+  font-size: 1.5em;
+  padding: 1%;
+}
+
+#city{
+  
+  font-size: 2.0em;
+  padding: 1%;
+}
+
+#weatherIcon{
+  
+  width: auto;
+  height: auto;
+}
+
+.glyphicon-arrow-up{
+  padding-right: 3%;
+}
+.glyphicon-arrow-down{
+  padding-left: 3%;
+}
+
+#forecast{
+  
+  font-size: 20px;
+  color:white;
+}
+
+#tempForecast {
+  
+  padding: 2%;
+}
+
+.row {
+	margin: auto;
+}
+
